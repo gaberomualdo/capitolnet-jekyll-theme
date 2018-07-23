@@ -1,0 +1,26 @@
+<script src="{{ site.baseurl }}/assets/js/vendor/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/vendor/jquery.easing.min.js"></script>
+<script>
+var site_baseurl = "{{ site.baseurl }}";
+var search_list = [
+  {% for post in site.posts %}
+
+  {
+    title: "{{ post.title }}",
+    type: "news",
+    link: "{{ site.baseurl }}{{ post.url }}"
+  },
+
+  {% endfor %}
+  ""
+];
+search_list.pop();
+
+$(function(){
+  _search_searchInputShowResults();
+  if(_home_page){
+    _slideshow_slideshowEvaluateDisabledButtons();
+  }
+});
+</script>
+<script src="{{ site.baseurl }}/assets/js/search.js"></script>

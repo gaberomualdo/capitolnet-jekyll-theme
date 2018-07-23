@@ -1,0 +1,16 @@
+<!-- Nav Spacer -->
+<div style="display: block;height: calc(6.5rem);position:relative;width:100%;"></div>
+
+<!-- Nav -->
+<nav>
+  <div class="logo">
+    <a href="{{ site.baseurl }}/">{% include logo.html %}</a>
+  </div>
+  <div class="links">
+    <input type="text" class="search" placeholder="Search Posts..." spellcheck="false">
+    <a href="{{ site.baseurl }}{{ site.posts.first.url }}">About This Blog</a>
+    <div class="searchResults">
+      <h2 class="no_results_notice">No Results Found.</h2>
+    </div>
+  </div>
+</nav>

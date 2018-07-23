@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include nav.html %}
+
+    <div class="site-container">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+    {% if page.css == "home.css" %}
+    <script>const _home_page = true;</script>
+    <script src="{{ site.baseurl }}/assets/js/slideshow.js"></script>
+    {% endif %}
+
+  </body>
+
+</html>

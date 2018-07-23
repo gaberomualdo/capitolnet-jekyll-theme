@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/test/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/test/" rel="alternate" type="text/html" /><updated>2018-07-23T15:44:41-04:00</updated><id>http://localhost:4000/test/</id><title type="html">Capitol Net Blog</title><entry><title type="html">Capitol Net Jekyll Theme</title><link href="http://localhost:4000/test/2018/07/18/introducing-capitolnet-jekyll-theme.html" rel="alternate" type="text/html" title="Capitol Net Jekyll Theme" /><published>2018-07-18T00:00:00-04:00</published><updated>2018-07-18T00:00:00-04:00</updated><id>http://localhost:4000/test/2018/07/18/introducing-capitolnet-jekyll-theme</id><content type="html" xml:base="http://localhost:4000/test/2018/07/18/introducing-capitolnet-jekyll-theme.html">&lt;p&gt;The Capitol Net Jekyll Theme is a beautiful jekyll theme based on the website &lt;a href=&quot;https://xtrp.github.io/capitolnet&quot;&gt;Capitol Net&lt;/a&gt;. This post should tell you everything you need to get started using this Jekyll theme.&lt;/p&gt;
+
+&lt;h5 id=&quot;config-variables&quot;&gt;Config Variables&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;footer_link_twitter&lt;/code&gt; — link to your Twitter account on the sites footer.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;footer_link_github&lt;/code&gt; — link to your Github account on the sites footer.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;footer_link_stackoverflow&lt;/code&gt; — link to your Stack Overflow account on the sites footer.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; — the title of your site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;post-frontmatter-variables&quot;&gt;Post FrontMatter Variables&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;layout&lt;/code&gt; — layout of the file (should be defined as &lt;code class=&quot;highlighter-rouge&quot;&gt;post&lt;/code&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; — the title of the post&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;date&lt;/code&gt; — the date the post was published&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt; — the author of the post&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;image&lt;/code&gt; — the post image file name (in &lt;code class=&quot;highlighter-rouge&quot;&gt;assets/img/post_images&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;author_image&lt;/code&gt; — the author profile photo file name (in &lt;code class=&quot;highlighter-rouge&quot;&gt;assets/img/post_author_images&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;optional-post-frontmatter-variables&quot;&gt;Optional Post FrontMatter Variables&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;featured&lt;/code&gt; — defined as true if the post should be in the featured slideshow (on the homepage)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;featured_description&lt;/code&gt; — description of the post that is shown on the featured slideshow&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;other-information&quot;&gt;Other Information&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;em&gt;About This Blog&lt;/em&gt; link on the navigation bar links to your first blog post&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Capitol Net</name></author><summary type="html">The Capitol Net Jekyll Theme is a beautiful jekyll theme based on the website Capitol Net. This post should tell you everything you need to get started using this Jekyll theme.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/test/2018-07-18-introducing-capitolnet-jekyll-theme.jpg" /></entry></feed>

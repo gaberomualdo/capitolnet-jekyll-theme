@@ -1,5 +1,7 @@
 title: Capitol Net Blog
 baseurl: /
+plugins:
+  - jekyll-feed
 
 footer_link_twitter: "http://twitter.com"
 footer_link_github: "http://github.com"

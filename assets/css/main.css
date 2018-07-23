@@ -5,7 +5,7 @@
   --color-blue: #00c;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 830px) {
   body *{
     display: none !important;
   }

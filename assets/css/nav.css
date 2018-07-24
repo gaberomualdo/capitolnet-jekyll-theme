@@ -33,6 +33,8 @@ nav div.links a {
   font-size: 1.75rem;
   float: left;
   line-height: 4rem;
+  height: 4rem;
+  min-width: 3rem;
   margin: 0 1rem;
   color: #222;
   font-weight: bold;
@@ -40,8 +42,21 @@ nav div.links a {
   text-decoration: none;
   display: inline-block;
 }
-nav div.links a:hover{
+nav div.links a svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 1.25rem 0.75rem;
+  color: #222;
+  font-weight: bold;
+  letter-spacing: -.06rem;
+  text-decoration: none;
+  display: inline-block;
+}
+nav div.links > a:hover{
   color: var(--color-red);
+}
+nav div.links > a:hover svg path {
+  fill: var(--color-red);
 }
 nav div.links input {
   margin-left: 1rem;
